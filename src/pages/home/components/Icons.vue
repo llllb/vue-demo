@@ -79,8 +79,7 @@ export default {
 <style scoped lang="stylus">
   @import "~styles/varibles.styl"
   @import "~styles/mixins.styl"
-  .icons
-    overflow: hidden
+  .icons >>> .swiper-container
     height: 0
     padding-bottom: 50%
 
