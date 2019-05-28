@@ -5,7 +5,7 @@
     </div>
     <div class="search-content">
       <ul>
-        <li class="search-item" v-for="item of list" :key="item.id">{{item.name}}</li>
+        <li class="search-item border-bottom" v-for="item of list" :key="item.id">{{item.name}}</li>
       </ul>
     </div>
   </div>
@@ -71,6 +71,12 @@ export default {
     left: 0
     right: 0
     bottom: 0
-    background: green
+    background: #eee
+
+    .search-item
+      line-height: .62rem
+      padding-left: .2rem
+      background: #fff
+      color: #666
 
 </style>
